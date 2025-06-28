@@ -92,3 +92,40 @@ main {
   font-weight: 700;
   color: #fff;
 }
+
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 3rem;
+}
+
+.site-map {
+  width: 100%;
+  text-align: center;
+}
+
+.site-map ul li {
+  list-style: none;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.social-media-icons {
+  max-width: 2.4rem;
+}
+
+.social-media-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.copyright {
+  padding-top: 2rem;
+}

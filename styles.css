@@ -22,3 +22,18 @@ body {
 .menu-icon {
   cursor: pointer;
 }
+
+footer {
+  background-color: #00464d;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #fff;
+}
