@@ -2,13 +2,22 @@
   position: relative;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 1),
       rgba(0, 0, 0, 0)
     ),
     url("../media/hero-section-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.header-hero-container .bottom-arc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
 }
 
 header {
@@ -40,5 +49,46 @@ header {
   font-size: 1.6rem;
   line-height: 2.5rem;
   text-align: center;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  background-color: #fff3b5;
+  padding: 1.5rem 3rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #ff9245;
+  background-image: linear-gradient(to top, #e9741f, #ff9245);
+  border-radius: 7px;
+  padding: 1rem 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2),
+    inset 0 0.2rem 0.2rem rgba(255, 255, 255, 0.3);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.25),
+    inset 0 0.2rem 0.2rem rgba(255, 255, 255, 0.3);
+}
+
+.button:active {
+  transform: translateY(1px);
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.25),
+    inset 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.button p {
+  font-size: 2.4rem;
+  font-weight: 700;
   color: #fff;
 }
