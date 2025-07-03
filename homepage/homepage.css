@@ -57,7 +57,7 @@ main {
   flex-flow: column;
   gap: 2rem;
   background-color: #fff3b5;
-  padding: 1.5rem 3rem;
+  padding: 2rem 3rem;
 }
 
 .button {
