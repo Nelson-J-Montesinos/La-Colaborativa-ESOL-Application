@@ -17,6 +17,7 @@ body {
 .material-symbols-outlined {
   color: #fff;
   font-size: 4rem;
+  cursor: pointer;
 }
 
 .menu-icon {
